@@ -15,6 +15,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/baef77f761.js" crossorigin="anonymous"></script>
+        <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <link rel="stylesheet" href="styles/style.css">
     <title>Document</title>
@@ -219,5 +225,12 @@
         </div>
       </div>
     </section>
+        <script>
+      //===============Sliding active class==============//
+      $("li a").on("click", function () {
+        $("a.active").removeClass("active");
+        $(this).addClass("active");
+      });
+    </script>
 </body>
 </html>
