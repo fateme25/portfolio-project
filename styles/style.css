@@ -313,3 +313,29 @@ hr{
 .project-image img{
     width: 500px;
 }
+/*************Contact section  ****************/
+.contact h4{
+    text-align: center;
+    color: var(--accent-color);
+    margin-top: 4rem;
+}
+.contact p{
+    max-width: 550px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+}
+.icons{
+    text-align: center;
+    margin-block: 4rem;
+}
+.icons i{
+    color: var(--color-white);
+    font-size: 30px;
+    cursor: pointer;
+    padding-inline: 25px;
+    transition: var(--transition);
+}
+.icons i:hover{
+    color: var(--accent-color);
+}
