@@ -41,6 +41,21 @@ p {
   color: var(--secondary-color);
 }
 
+.nav-item {
+    padding-inline: 10px;
+}
+
+
+.nav-link.active {
+    border-bottom:2px solid var(--color-red-light);
+    width: fit-content;
+}
+
+.custome-toggler {
+  border: 2px solid var(--accent-color);
+  padding: 8px;
+}
+
 .hero {
   background-color: var(--primary-color);
 }
@@ -148,17 +163,12 @@ span {
   color: var(--accent-color);
 }
 
-.custome-toggler {
-  border: 2px solid var(--accent-color);
-  padding: 8px;
-}
 /*************portfolio section**************/
 
 .projects-content {
    padding: 1.5rem;
    box-shadow:0px 1px 26px 3px rgb(82, 83, 83);
    border-radius: 8px;
-    /* box-shadow: 0px 1px 10px 3px rgba(26, 178, 168, 1); */
 }
 .projects-content .links{
     display: flex;
