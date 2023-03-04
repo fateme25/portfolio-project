@@ -163,6 +163,108 @@ span {
   color: var(--accent-color);
 }
 
+
+/**************About section**************/
+.about {
+   background:#2a2929;
+   position: relative;
+   z-index:0 ;
+   margin-top: 6rem;
+   
+}
+
+.image-section {
+    position: relative;
+    max-width: 220px;
+    /* max-width: 300px; */
+    margin-left: 35px;
+}
+
+.wrapper-img::before,
+.wrapper-img::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: var(--transition);
+}
+
+.wrapper-img:after {
+    border: 2px solid var(--accent-color);
+    top: 20px;
+    left: 25px;
+    z-index: -1;
+}
+
+.wrapper-img img {
+    margin-top: -10px;
+    width: 220px;
+    height: 340px;
+}
+
+.greeting{
+    color: var(--accent-color);
+    font-size: 18px;
+    font-weight:700;
+}
+.greeting::after{
+    content: "";
+    display: block;
+    position: relative;
+    /* margin-top: px; */
+    top: -10px;
+    width: 40px;
+    height: 2px;
+    margin-left: 2.20rem;
+    background-color:var(--accent-color);
+}
+
+.about-bio h2 {
+    font-size: 25px;
+    opacity: 0.85;
+}
+hr{
+    height:2px;
+    border-width:0;
+    background-color:var(--secondary-color);
+    margin-top: 2rem;
+}
+
+.bio-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+    gap: 0 0.5rem;
+    padding: 0;
+    overflow: hidden;
+    color: var(--color-white);
+    list-style: none;
+}
+.bio-list li{
+   padding-block: 10px;
+}
+.personal-info{
+    font-size: 14px;
+    padding-top: 0.5rem;
+}
+
+.about-bio .resume{
+    padding: 8px 25px;
+    background-color: var(--accent-color);
+    color: var(--color-white);
+    font-size: 18px;
+    margin-right: 0.5rem;
+    border: none;
+}
+.about-bio .hiring{
+    padding: 8px 25px;
+    background-color: transparent;
+    border: 1px solid var(--accent-color);
+    color:var(--accent-color);
+    font-size: 18px;
+}
+
 /*************portfolio section**************/
 
 .projects-content {
