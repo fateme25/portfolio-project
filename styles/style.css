@@ -313,6 +313,38 @@ hr{
 .project-image img{
     width: 500px;
 }
+/************ Technical skill section *************/
+.my-skills{
+    background-color:#2a2929;
+    padding-block: 5rem;
+}
+
+.skill-list{
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 30px;
+}
+.progress-label{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+.progress-bar{
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    position: relative;
+}
+.progress-bar span{
+    position: absolute;
+    /* width: 50%; */
+    height: 100%;
+    background-color: var(--accent-color);
+}
+.tech-skill{
+    margin-left: 5rem;
+}
 /*************Contact section  ****************/
 .contact h4{
     text-align: center;
