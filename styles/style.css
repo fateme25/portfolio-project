@@ -265,14 +265,6 @@ hr{
     font-size: 18px;
 }
 
-@media (max-width:768px){
-    .tech-skill{
-        margin-left: 0;
-    }
-    .greeting{
-        padding-top: 2.5rem;
-    }
-}
 
 /*************portfolio section**************/
 
@@ -370,4 +362,14 @@ hr{
 }
 .icons i:hover{
     color: var(--accent-color);
+}
+
+
+@media (max-width:768px){
+    .tech-skill{
+        margin-left: 0;
+    }
+    .greeting{
+        padding-top: 2.5rem;
+    }
 }
